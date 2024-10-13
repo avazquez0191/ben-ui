@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang='es'>
+  <head>
+    <meta charset='utf-8' />
+    <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible' />
+    <title>Ben</title>
+    <meta content='ben' name='author' />
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0' name='viewport' />
+    <link href='css/bootstrap.min.css' rel='stylesheet' />
+    <link href='css/bootstrap-select.css' rel='stylesheet' />
+    <link href='css/ben.css' rel='stylesheet' />
+  </head>
+  <body>
+    
+    <div id='body'>
+
+      <header>
+        <nav class="navbar navbar-default bg-color-white" role="navigation">
+          <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#"><img class="img-responsive" src="rsc/icons/header_logo_01.png" alt=""></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="#">Inicio</a></li>
+                <li><a href="#">Servicio a Domicilio</a></li>
+                <li><a href="#">Sucursales</a></li>
+                <li><a href="#">Facturación en línea</a></li>
+                <li><a href="#">FotoBenavides</a></li>
+                <li><a href="#">Regístrate</a></li>
+                <li class="search"><a href="#"><span class="fa fa-search"></span></a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><img class="img-responsive" src="rsc/imgs/user.png" alt=""></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <div class="arrow"></div>
+                    <li class="active"><a href="#">Tu cuenta</a></li>
+                    <li><a href="#">Cerrar sesión</a></li>
+                    <li><a href="#">Solo para ti</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div>
+        </nav>
+      </header>
+
+      <div id='main' role='main'>
+        <div id="main-carousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-id" data-slide-to="0" class="active"></li>
+                <!--<li data-target="#carousel-id" data-slide-to="1" class=""></li>
+                <li data-target="#carousel-id" data-slide-to="2" class=""></li>-->
+            </ol>
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="rsc/imgs/banner_02.png">
+                    <div class="container">
+                        <div class="carousel-caption">
+                        </div>
+                    </div>
+                </div>
+                <!--<div class="item">
+                    <img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Second slide" alt="Second slide" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNTAwIj48cmVjdCB3aWR0aD0iOTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iIzY2NiI+PC9yZWN0Pjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjQ1MCIgeT0iMjUwIiBzdHlsZT0iZmlsbDojNmE2YTZhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjU2cHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+U2Vjb25kIHNsaWRlPC90ZXh0Pjwvc3ZnPg==">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>Another example headline.</h1>
+                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                            <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img data-src="holder.js/900x500/auto/#555:#5a5a5a/text:Third slide" alt="Third slide" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNTAwIj48cmVjdCB3aWR0aD0iOTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iIzU1NSI+PC9yZWN0Pjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjQ1MCIgeT0iMjUwIiBzdHlsZT0iZmlsbDojNWE1YTVhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjU2cHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+VGhpcmQgc2xpZGU8L3RleHQ+PC9zdmc+">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>One more for good measure.</h1>
+                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                            <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+                        </div>
+                    </div>
+                </div>-->
+            </div>
+            <a class="left carousel-control" href="#carousel-id" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+            <a class="right carousel-control" href="#carousel-id" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+        </div>
+        
+        <section class="beneficios padded-top-bottom bg-color-white">
+          <div class="row full-width">
+            <div class="col-xs-12 col-sm-5 full-width">
+              <img src="rsc/imgs/tarjeta.png" alt="" class="img-responsive hidden-xs">
+              <img src="rsc/imgs/tarjeta-xs.png" alt="" class="img-responsive visible-xs">
+            </div>
+            <div class="col-xs-12 col-sm-7">
+              <h1 class="weight-heavy full-width"><span class="color-blue">usa tu </span><span class="color-blue-marine">tarjeta Benavides</span></h1>
+              <h4 class="weight-heavy color-blue full-width">con ella obtienes beneficios en todas tus compras</h4><br>
+
+              <p class="color-blue">Con tu tarjeta Benavides obtienes grandes beneficios y dinero eelectrónico. Presentala en cada compra que realices en todas nuestras sucursales.</p><br>
+
+              <ol class="numbered-list">
+                <li>Obsequio de bienvenida</li>
+                <li>Dinero electrónico*: En todas tus compras acumulas dinero electrónico y en marcas propias acumulas el 10%</li>
+                <li>Descuento para +55 años: obtén 7% de descuento los primeros 7 días del mes y 5% el resto</li>
+                <li>Medicamentos gratis en mas de 35 laboratorios:*</li>
+                <li>Acceso exclusivo a club peques: te manda al registro</li>
+              </ol>
+            </div>
+            <p class="absolute center-bottom color-blue padded-left-right">
+              <span class="weight-heavy">Adicional a estos beneficios las personas mayores de 55 años reciben el 7% de descuentos los primeros 7 días del mes y 5% de descuento el resto.</span><br>
+              La tarjeta Benavides es la única tarjeta que tiene convenio con mas de 40 laboratorios para que tu recibas más de 1,000 medicamentos gratis para padecimientos crónicos como diabetes, hipertensión, gastrointestinal, obesidad, depresión, entre otros.
+            </p>
+          </div>
+        </section>
+
+        <section class="afiliate-steps">
+          <div class="padded-top-bottom bg-color-blue-marine">
+            <div class="container">
+              <div class="row">
+                <div class="col-xs-12">
+                  <h2 class="color-white weight-heavy text-center margin-bottom">afiliate al programa siguiendo los siguientes pasos:</h2>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-offset-2 col-md-4">
+                  <a class="step text-center">
+                    <img class="img-responsive" src="rsc/imgs/sucursal.png" alt="">
+                    <h4 class="color-white"><span class="color-blue">1. </span>Pide tu tarjeta en Sucursal, es gratis.</h4>
+                  </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                  <a class="step text-center">
+                    <img class="img-responsive" src="rsc/imgs/compu.png" alt="">
+                    <h4 class="color-white"><span class="color-blue">2. </span>Registrate en beneficiointeligente.com.mx o al 1800 444 2525</h4>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="aumentar-beneficios padded-top-bottom bg-color-gray">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12 col-sm-8 col-md-9">
+                <h1 class="weight-heavy full-width"><span class="color-red">aumenta </span><span class="color-blue">tus beneficios</span></h1>
+                <h4 class="weight-heavy color-blue full-width">con mi tarjeta <span class="color-red">Benavides Platino </span>los beneficios se multiplican</h4><br>
+
+                <ol class="numbered-list">
+                  <li>Obsequio de bienvenida</li>
+                  <li>Dinero electrónico*: En todas tus compras acumulas dinero electrónico y en marcas propias acumulas el 10%</li>
+                  <li>Descuento para +55 años: obtén 7% de descuento los primeros 7 días del mes y 5% el resto</li>
+                  <li>Medicamentos gratis en mas de 35 laboratorios:*</li>
+                  <li>Acceso exclusivo a <a href="" class="color-blue">Club Peques</a></li>
+                  <li>Consulta médica gratuita: 1 consulta médica gratuita al año a partir de la activación o renovación de tu tarjeta</li>
+                  <li>
+                    Seguro de vida: seguro de vida por muerte accidental por una suma asegurada de hasta $210,000. Vigencia de 1 año para el seguro. <br>
+                    <ul class="nested-list">
+                      <li>Beneficio otorgado/operado y a cargo de ACE Seguros, S.A.
+                        <ul class="nested-list">
+                          <li>Aplica en caso de muerte accidental, incluso en caso de asaltos.</li>
+                          <li>Activación automática del seguro al comprar la tarjeta y registrarse en sucursal.</li>
+                          <li>Podrás designar a tu beneficiario contactando a ACE Seguros</li>
+                          <li>Para la reclamación del seguro, el beneficiario debe presentar la tarjeta y demostrar la relación.</li>
+                          <li>Dudas e información, comunícate a ACE Seguros en el teléfono 01 800 237 6266 o en la página www.acegroup.com/mx-es consulta también el aviso de privacidad de la seguradora en dicha página.</li>
+                        </ul> 
+                      </li>
+                    </ul> 
+                  </li>
+                  <li>
+                    Seguro de ambulancia: 2 ambulancias al año gratis llamando al 01 800 237 6266. <br> 
+                    <ul class="nested-list">
+                      <li>Beneficio otorgado/operado y a cargo de ACE Seguros, S.A.
+                        <ul class="nested-list">
+                          <li>Para uso exclusivo del titular de la tarjeta.</li>
+                          <li>Únicamente en caso de emergencia, aplican restricciones.</li>
+                          <li>Programa a nivel nacional las 24 horas y 365 días del año.</li>
+                          <li>Traslado al hospital más cercano.</li>
+                          <li>Equipada con todos los servicios básicos de primeros auxilios y operada por paramédicos certificados.</li>
+                          <li>Envío de ambulancia por emergencia.-Si el beneficiario o consecuencia de accidente o enfermedad repentina que le provoque lesiones o traumatismos que pongan en peligro su vida, se gestionará su traslado al centro hospitalario más cercano y/o adecuado. Si fuera necesario por razones médicas, se realizará el traslado bajo supervisión médica, mediante ambulancia terrestre, de terapia intensiva, intermedia o estándar, dependiendo de la gravedad y circunstancias de cada caso.</li>
+                        </ul> 
+                      </li>
+                    </ul><br><br>
+                    Orientación telefónica: Obtén orientación telefónica llamando al 01 800 237 6266 <br><br>
+                    Descuentos en laboratorios de análisis clínicos (<a data-toggle="modal" href="#modal-ciudades" class="color-blue">consulta el listado de ciudades participantes</a>) 3% de descuento en tus compras (*Excepto en Tabaquería, alcohol, raspacitos, pagos de servicios, fórmulas maternizadas, pañales, agua envazada, bebidas y refrescos, alimentos funcionales, artículos que estén en acumulación de piezas productos que tengan otra oferta/promoción, y medicamentos de especialidad)
+                  </li>
+                </ol>
+                <p class="padded-top color-blue small">Excepciones de acumulación de dinero electrónico: Tabaquería, alcohol, recargas telefónicas, raspaditos, pagos de servicios, fórmulas maternizadas, medicamentos de especialidad y controlados.</p><br>
+              </div>
+              <img src="rsc/imgs/platino.png" alt="" class="img-responsive img-top absolute hidden-xs">
+              <img src="rsc/imgs/platino_oferta.png" alt="" class="img-responsive img-bottom absolute hidden-xs">
+            </div>
+          </div>
+        </section>
+
+        <section class="padded-top-bottom bg-color-white">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12">
+                <h2 class="color-red color-red weight-heavy">Laboratorios participantes</h2>
+              </div>
+            </div>
+            <div id="bottom-carousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-id" data-slide-to="0" class="active"></li>
+                    <!--<li data-target="#carousel-id" data-slide-to="1" class=""></li>
+                    <li data-target="#carousel-id" data-slide-to="2" class=""></li>-->
+                </ol>
+                <div class="row">
+                  <div class="col-xs-12">
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="rsc/imgs/laboratorios_participantes.png">
+                            <div class="container">
+                                <div class="carousel-caption">
+                                </div>
+                            </div>
+                        </div>
+                        <!--<div class="item">
+                            <img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Second slide" alt="Second slide" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNTAwIj48cmVjdCB3aWR0aD0iOTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iIzY2NiI+PC9yZWN0Pjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjQ1MCIgeT0iMjUwIiBzdHlsZT0iZmlsbDojNmE2YTZhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjU2cHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+U2Vjb25kIHNsaWRlPC90ZXh0Pjwvc3ZnPg==">
+                            <div class="container">
+                                <div class="carousel-caption">
+                                    <h1>Another example headline.</h1>
+                                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img data-src="holder.js/900x500/auto/#555:#5a5a5a/text:Third slide" alt="Third slide" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNTAwIj48cmVjdCB3aWR0aD0iOTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iIzU1NSI+PC9yZWN0Pjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjQ1MCIgeT0iMjUwIiBzdHlsZT0iZmlsbDojNWE1YTVhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjU2cHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+VGhpcmQgc2xpZGU8L3RleHQ+PC9zdmc+">
+                            <div class="container">
+                                <div class="carousel-caption">
+                                    <h1>One more for good measure.</h1>
+                                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+                                </div>
+                            </div>
+                        </div>-->
+                    </div>
+                  </div>
+                </div>
+                <a class="left carousel-control" href="#carousel-id" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+                <a class="right carousel-control" href="#carousel-id" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="icons">
+              <div class="col-xs-12 col-sm-6">
+                <img src="rsc/icons/logo bena.png" alt="">
+              </div>
+              <div class="col-xs-12 col-sm-6">
+                <div class="social-media text-right">
+                    <a href="" class="facebook"><span class="fa fa-facebook-official"></span></a>
+                    <a href="" class="twitter"><span class="fa fa-twitter"></span></a>
+                    <a href="" class="instagram"><span class="fa fa-instagram"></span></a>
+                    <a href="" class="youtube"><span class="fa fa-youtube-play"></span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="extra-links">
+              <div class="col-xs-12">
+                <a href="" class="text-uppercase">Servicios</a>
+                <a href="" class="text-uppercase">Inversionistas</a>
+                <a href="" class="text-uppercase">Proveedores</a>
+                <a href="" class="text-uppercase">Contacto</a>
+                <a href="" class="text-uppercase">Únete al equipo</a>
+                <a href="" class="text-uppercase">Fotobenavides</a>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="rights">
+              <div class="col-xs-12">
+                <h5 class="text-uppercase"><small>2016 Derechos reservados farmacia benavides, Aviso de privacidad / Políticas de privacidad</small></h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <!--Modals-->
+      <div class="modal fade" id="modal-mis-compras">
+        <div class="modal-dialog">
+          <div class="modal-content bg-color-gray">
+            <div class="modal-header">
+              <h4 class="modal-title">Mis compras</h4>
+            </div>
+            <div class="modal-body">
+              
+              <div role="tabpanel">
+                  <!-- Nav tabs -->
+                  <ul class="nav nav-tabs" role="tablist">
+                      <li role="presentation" class="active">
+                          <a href="#home" aria-controls="home" role="tab" data-toggle="tab">Dinero Electrónico</a>
+                      </li>
+                      <li role="presentation">
+                          <a href="#tab" aria-controls="tab" role="tab" data-toggle="tab">Piezas Gratis</a>
+                      </li>
+                  </ul>
+              
+                  <!-- Tab panes -->
+                  <div class="tab-content">
+                      <div role="tabpanel" class="tab-pane active" id="home">
+                        
+                        <div class="table-responsive">
+                          <table class="table table-hover table-striped table-condensed">
+                            <thead>
+                              <tr>
+                                <th>Fecha</th>
+                                <th>Tipo de movimiento</th>
+                                <th>Sucursal</th>
+                                <th>Ticket</th>
+                                <th>Importe</th>
+                                <th>Dinero electrónico</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>2017-01-21 15:56</td>
+                                <td>Ticket Venta</td>
+                                <td>Suc. Plaza Gu</td>
+                                <td>165666</td>
+                                <td>$207.00</td>
+                                <td>$0.00</td>
+                              </tr>
+                              <tr>
+                                <td>2017-01-21 15:56</td>
+                                <td>Ticket Venta</td>
+                                <td>Suc. Plaza Gu</td>
+                                <td>165666</td>
+                                <td>$207.00</td>
+                                <td>$0.00</td>
+                              </tr>
+                              <tr>
+                                <td>2017-01-21 15:56</td>
+                                <td>Ticket Venta</td>
+                                <td>Suc. Plaza Gu</td>
+                                <td>165666</td>
+                                <td>$207.00</td>
+                                <td>$0.00</td>
+                              </tr>
+                              <tr>
+                                <td>2017-01-21 15:56</td>
+                                <td>Ticket Venta</td>
+                                <td>Suc. Plaza Gu</td>
+                                <td>165666</td>
+                                <td>$207.00</td>
+                                <td>$0.00</td>
+                              </tr>
+                              <tr>
+                                <td>2017-01-21 15:56</td>
+                                <td>Ticket Venta</td>
+                                <td>Suc. Plaza Gu</td>
+                                <td>165666</td>
+                                <td>$207.00</td>
+                                <td>$0.00</td>
+                              </tr>
+                              <tr>
+                                <td>2017-01-21 15:56</td>
+                                <td>Ticket Venta</td>
+                                <td>Suc. Plaza Gu</td>
+                                <td>165666</td>
+                                <td>$207.00</td>
+                                <td>$0.00</td>
+                              </tr>
+                              <tr>
+                                <td>2017-01-21 15:56</td>
+                                <td>Ticket Venta</td>
+                                <td>Suc. Plaza Gu</td>
+                                <td>165666</td>
+                                <td>$207.00</td>
+                                <td>$0.00</td>
+                              </tr>
+                              <tr>
+                                <td>2017-01-21 15:56</td>
+                                <td>Ticket Venta</td>
+                                <td>Suc. Plaza Gu</td>
+                                <td>165666</td>
+                                <td>$207.00</td>
+                                <td>$0.00</td>
+                              </tr>
+                              <tr>
+                                <td>2017-01-21 15:56</td>
+                                <td>Ticket Venta</td>
+                                <td>Suc. Plaza Gu</td>
+                                <td>165666</td>
+                                <td>$207.00</td>
+                                <td>$0.00</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                        
+                      </div>
+                      <div role="tabpanel" class="tab-pane" id="tab">
+                        
+                        <div class="table-responsive">
+                          <table class="table table-hover table-striped table-condensed">
+                            <thead>
+                              <tr>
+                                <th>Fecha</th>
+                                <th>Tipo de movimiento</th>
+                                <th>Sucursal</th>
+                                <th>Ticket</th>
+                                <th>Importe</th>
+                                <th>Dinero electrónico</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>2017-01-21 15:56</td>
+                                <td>Ticket Venta</td>
+                                <td>Suc. Plaza Gu</td>
+                                <td>165666</td>
+                                <td>$207.00</td>
+                                <td>$0.00</td>
+                              </tr>
+                              <tr>
+                                <td>2017-01-21 15:56</td>
+                                <td>Ticket Venta</td>
+                                <td>Suc. Plaza Gu</td>
+                                <td>165666</td>
+                                <td>$207.00</td>
+                                <td>$0.00</td>
+                              </tr>
+                              <tr>
+                                <td>2017-01-21 15:56</td>
+                                <td>Ticket Venta</td>
+                                <td>Suc. Plaza Gu</td>
+                                <td>165666</td>
+                                <td>$207.00</td>
+                                <td>$0.00</td>
+                              </tr>
+                              <tr>
+                                <td>2017-01-21 15:56</td>
+                                <td>Ticket Venta</td>
+                                <td>Suc. Plaza Gu</td>
+                                <td>165666</td>
+                                <td>$207.00</td>
+                                <td>$0.00</td>
+                              </tr>
+                              <tr>
+                                <td>2017-01-21 15:56</td>
+                                <td>Ticket Venta</td>
+                                <td>Suc. Plaza Gu</td>
+                                <td>165666</td>
+                                <td>$207.00</td>
+                                <td>$0.00</td>
+                              </tr>
+                              <tr>
+                                <td>2017-01-21 15:56</td>
+                                <td>Ticket Venta</td>
+                                <td>Suc. Plaza Gu</td>
+                                <td>165666</td>
+                                <td>$207.00</td>
+                                <td>$0.00</td>
+                              </tr>
+                              <tr>
+                                <td>2017-01-21 15:56</td>
+                                <td>Ticket Venta</td>
+                                <td>Suc. Plaza Gu</td>
+                                <td>165666</td>
+                                <td>$207.00</td>
+                                <td>$0.00</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+
+                      </div>
+                  </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="modal-ciudades">
+        <div class="modal-dialog">
+          <div class="modal-content bg-color-blue">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            </div>
+            <div class="modal-body">
+              
+              <form action="" method="POST" role="form">
+                <legend>¿En que ciudad te encuentras?</legend>
+                
+                <div class="row">
+                  <div class="col-xs-12 col-sm-offset-4 col-sm-4">
+                    <div class="form-group">
+                      <select class="form-control selectpicker">
+                          <option>Nuevo León</option>
+                          <option>Oaxaca</option>
+                          <option>Puebla</option>
+                          <option>Querétaro</option>
+                          <option>Quintana Roo</option>
+                          <option>San Luis Potosí</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-xs-12 col-sm-offset-4 col-sm-4">
+                    <div class="form-grou7">
+                      <select class="form-control selectpicker">
+                          <option>Nuevo León</option>
+                          <option>Oaxaca</option>
+                          <option>Puebla</option>
+                          <option>Querétaro</option>
+                          <option>Quintana Roo</option>
+                          <option>San Luis Potosí</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                
+              </form>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="modal-registro">
+        <div class="modal-dialog">
+          <div class="modal-content bg-color-blue">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            </div>
+            <div class="modal-body">
+              
+              <form class="form-horizontal" action="" method="POST" role="form">
+                <legend>¡Bienvenido a Tarjeta Benavides!</legend>
+                
+                <div class="row">
+                  <div class="col-xs-6">
+                    <div class="form-group">
+                      <label for="tarjeta" class="col-sm-5 control-label">*Tarjeta:</label>
+                      <div class="col-sm-7">
+                        <input type="text" class="form-control input-sm" id="tarjeta" placeholder="">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="nombre" class="col-sm-5 control-label">*Nombre (s):</label>
+                      <div class="col-sm-7">
+                        <input type="text" class="form-control input-sm" id="nombre" placeholder="">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="apellido-paterno" class="col-sm-5 control-label">*Apellido paterno:</label>
+                      <div class="col-sm-7">
+                        <input type="text" class="form-control input-sm" id="apellido-paterno" placeholder="">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="apellido-materno" class="col-sm-5 control-label">*Apellido materno:</label>
+                      <div class="col-sm-7">
+                        <input type="text" class="form-control input-sm" id="apellido-materno" placeholder="">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="email" class="col-sm-5 control-label">*E-mail:</label>
+                      <div class="col-sm-7">
+                        <input type="email" class="form-control input-sm" id="email" placeholder="">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="celular" class="col-sm-5 control-label">Celular (10 di):</label>
+                      <div class="col-sm-7">
+                        <input type="text" class="form-control input-sm" id="celular" placeholder="">
+                      </div>
+                    </div>
+                    <div class="form-group date">
+                      <label for="fecha-nacimiento-dia" class="col-sm-5 control-label">*Fecha de nacimiento:</label>
+                      <div class="col-sm-7">
+                        <div class="row full-width">
+                          <div class="col-xs-4 full-width">
+                            <input type="number" class="form-control input-sm" id="fecha-nacimiento-ano" placeholder="Año">
+                          </div>
+                          <div class="col-xs-4 full-width">
+                            <input type="number" class="form-control input-sm" id="fecha-nacimiento-mes" placeholder="Mes">
+                          </div>
+                          <div class="col-xs-4 full-width">
+                            <input type="number" class="form-control input-sm" id="fecha-nacimiento-dia" placeholder="Día">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xs-6">
+                    <div class="form-group">
+                      <label for="genero-m" class="col-xs-12 control-label text-left">*Género</label>
+                      <div class="col-xs-12 text-left">
+                        <label class="radio-inline">
+                          <input name="genero" type="radio" id="genero-m" value="masculino"> <img src="rsc/icons/hombre.png" alt="">
+                        </label>
+                        <label class="radio-inline">
+                          <input name="genero" type="radio" id="genero-f" value="femenino"> <img src="rsc/icons/mujer.png" alt="">
+                        </label>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="hijos-si" class="col-xs-12 control-label text-left">*¿Tienes hijos?</label>
+                      <div class="col-xs-12 text-left">
+                        <label class="radio-inline">
+                          <input name="hijos" type="radio" id="hijos-si" value="si"> Sí
+                        </label>
+                        <label class="radio-inline">
+                          <input name="hijos" type="radio" id="hijos-no'" value="no"> No
+                        </label>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="club-si" class="col-xs-12 control-label text-left">¿Quieres pertenecer a</label>
+                      <div class="col-xs-12 text-left">
+                        <img src="rsc/icons/logo_club.png" alt="" class="logo_club">
+                        <label class="radio-inline">
+                          <input name="club" type="radio" id="club-si" value="si"> Sí
+                        </label>
+                        <label class="radio-inline">
+                          <input name="club" type="radio" id="club-no'" value="no"> No
+                        </label>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="contrasena" class="col-sm-4 control-label text-left">*Contraseña:</label>
+                      <div class="col-sm-8">
+                        <input type="password" class="form-control input-sm" id="contrasena" placeholder="">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="confirmar-contrasena" class="col-sm-4 control-label text-left">*Confirnar contraseña:</label>
+                      <div class="col-sm-8">
+                        <input type="password" class="form-control input-sm" id="confirmar-contrasena" placeholder="">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+              </form>              
+
+            </div>
+            <div class="modal-footer">
+              <div class="block_info">
+                <ol>
+                  <li>Acepto términos y condiciones</li>
+                  <li>Acepto recibir información de Farmacias Benavides</li>
+                  <li>(*) Campos obligatorios</li>
+                </ol>
+              </div>
+              <button type="button" class="btn btn-default" data-dismiss="modal">Regresar</button>
+              <button type="button" class="btn btn-primary">Aceptar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="modal-tu-cuenta">
+        <div class="modal-dialog">
+          <div class="modal-content bg-color-blue-marine">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            </div>
+            <div class="modal-body">
+              
+              <form class="form-horizontal form-login" action="" method="POST" role="form">
+                <legend>!Bienvenido a Tarjeta Benavides¡</legend>
+                
+                <div class="row">
+                  <div class="col-sm-offset-3 col-sm-6">
+                    <div class="form-group">
+                      <label for="tarjeta" class="col-sm-3 control-label">Tarjeta:</label>
+                      <div class="col-sm-9">
+                        <input type="text" name="tarjeta" id="tarjeta" class="form-control" value="" required="required" pattern="" title="">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="contrasena" class="col-sm-3 control-label">Contraseña:</label>
+                      <div class="col-sm-9">
+                        <input type="password" name="contrasena" id="contrasena" class="form-control" value="" required="required" pattern="" title="">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+              </form>
+
+              <form class="form-horizontal form-logged hidden" action="" method="POST" role="form">
+                <legend>!Hola, <span class="color-blue">Jud!</span></legend>
+                
+                <div class="row">
+                  <div class="col-sm-offset-3 col-sm-6">
+                    <dl>
+                      <dt>Tu saldo es de:</dt>
+                      <dd>$50</dd>
+                      <dt>Tu número de tarjeta es:</dt>
+                      <dd>123456789</dd>
+                      <dt>Miembro Club Peques:</dt>
+                      <dd>desde 2015</dd>
+                    </dl>
+                  </div>
+                </div>
+                
+              </form>
+
+            </div>
+            <div class="modal-footer">
+              <div class="footer-login">
+                <button type="button" class="btn btn-primary" onclick="$('#modal-tu-cuenta').addClass('logged');">Entrar</button>
+              </div>
+              <div class="footer-logged hidden">
+                <button type="button" class="btn btn-primary">Ve a tu perfil</button>
+                <img src="rsc/icons/sello_peques.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <script src='js/jquery/jquery.min.js'></script>
+    <script src='js/bootstrap.min.js'></script>
+    <script src='js/bootstrap-select.js'></script>
+    <script src='js/app.js'></script>
+  </body>
+</html>

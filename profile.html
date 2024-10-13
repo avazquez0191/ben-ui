@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang='es'>
+  <head>
+    <meta charset='utf-8' />
+    <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible' />
+    <title>Ben</title>
+    <meta content='ben' name='author' />
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0' name='viewport' />
+    <link href='css/bootstrap.min.css' rel='stylesheet' />
+    <link href='css/bootstrap-select.css' rel='stylesheet' />
+    <link href='css/ben.css' rel='stylesheet' />
+  </head>
+  <body>
+    
+    <div id='body'>
+
+      <header>
+        <nav class="navbar navbar-default bg-color-white" role="navigation">
+          <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#"><img class="img-responsive" src="rsc/icons/header_logo_01.png" alt=""></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="#">Inicio</a></li>
+                <li><a href="#">Servicio a Domicilio</a></li>
+                <li><a href="#">Sucursales</a></li>
+                <li><a href="#">Facturación en línea</a></li>
+                <li><a href="#">FotoBenavides</a></li>
+                <li><a href="#">Regístrate</a></li>
+                <li class="search"><a href="#"><span class="fa fa-search"></span></a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><img class="img-responsive" src="rsc/imgs/user.png" alt=""></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <div class="arrow"></div>
+                    <li class="active"><a href="#">Tu cuenta</a></li>
+                    <li><a href="#">Cerrar sesión</a></li>
+                    <li><a href="#">Solo para ti</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div>
+        </nav>
+        <nav class="navbar bg-color-blue-dark text-center sub-header-nav" role="navigation">
+            <div class="container">
+                <ul class="nav navbar-nav" role="tablist">
+                    <li class="active"><a data-toggle="tab" aria-controls="perfil-mi-cuenta" href="#perfil-mi-cuenta">Mi cuenta</a></li>
+                    <li><a data-toggle="tab" aria-controls="perfil-mis-compras" href="#perfil-mis-compras">Mis compras</a></li>
+                    <li><a data-toggle="tab" aria-controls="perfil-mis-ofertas" href="#perfil-mis-ofertas">Mis ofertas</a></li>
+                    <li><a data-toggle="tab" aria-controls="perfil-suscripciones" href="#perfil-suscripciones">Suscripciones</a></li>
+                    <li><a data-toggle="tab" aria-controls="perfil-club-peques" href="#perfil-club-peques">Club Peques</a></li>
+                    <li><a data-toggle="tab" aria-controls="perfil-terminos-condiciones" href="#perfil-terminos-condiciones">Términos y Condiciones</a></li>
+                </ul>
+            </div>
+        </nav>
+      </header>      
+
+      <div id='main' role='main'>
+        <section class="perfil tab-content">
+          <div id="perfil-mi-cuenta" class="tab-pane active" role="tabpanel">
+            <div class="container">
+              <div class="form_info_01">
+                <form class="form-horizontal bg-color-blue-marine">
+                  <div class="row">
+                    <div class="col-sm-4">
+                      <img class="img-responsive" src="rsc/imgs/user_lg.png" alt="">
+                    </div>
+                    <div class="col-sm-8">
+                      <legend>!Hola, <span class="color-blue">Jud!</span></legend>
+                      <dl>
+                        <dt>Tu saldo es de:</dt>
+                        <dd>$50</dd>
+                        <dt>Tu número de tarjeta es:</dt>
+                        <dd>123456789</dd>
+                        <dt>Miembro Club Peques:</dt>
+                        <dd>desde 2015</dd>
+                      </dl>
+                    </div>
+                  </div>
+                  
+                </form>
+              </div>
+              <div class="form_info_02">
+                <form class="form-vertical" action="" method="POST" role="form">
+                  <legend>Perfil</legend>
+                  
+                  <div class="row">
+                    <div class="col-sm-4">
+                      <div class="form-group">
+                        <label for="nombre" class="control-label">Nombre (s):</label>
+                        <p class="form-control-static">Judith Elizabeth</p>
+                      </div>
+                      <div class="form-group">
+                        <label for="email" class="control-label">E-mail:</label>
+                        <p class="form-control-static">jud.macias@gmail.com</p>
+                      </div>
+                      <div class="form-group">
+                        <label for="tarjeta" class="control-label">Tarjeta:</label>
+                        <p class="form-control-static">123456789</p>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="form-group">
+                        <label for="apellido-paterno" class="control-label">Apellidos:</label>
+                        <p class="form-control-static">Macias Palomeque</p>
+                      </div>
+                      <div class="form-group">
+                        <label for="celular" class="control-label">Género:</label>
+                        <p class="form-control-static">Femenino</p>
+                      </div>
+                      <div class="form-group">
+                        <label for="celular" class="control-label">Fecha de nacimiento:</label>
+                        <p class="form-control-static">15 | 10 | 1990</p>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="row">
+                        <div class="col-xs-6">
+                          <div class="form-group">
+                            <label for="celular" class="control-label">¿Tienes hijos?</label>
+                            <p class="form-control-static">No</p>
+                          </div>
+                        </div>
+                        <div class="col-xs-6">
+                          <div class="form-group">
+                            <label for="celular" class="control-label">Código postal</label>
+                            <p class="form-control-static">67189</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label for="celular" class="control-label">Ciudad</label>
+                        <p class="form-control-static">Monterrey, Nuevo Leon</p>
+                      </div>
+                      <div class="form-group">
+                        <button type="button" class="btn btn-default">Actualizar datos</button>
+                      </div>
+                    </div>
+                  </div>
+                  
+                </form>  
+              </div>
+            </div>
+            <div class="fake-footer"></div>
+          </div>
+          <div id="perfil-mis-compras" class="tab-pane" role="tabpanel">
+            <div class="container">
+              <div class="form_info_01">
+                <h2 class="color-blue weight-heavy">Mis compras</h2>
+                <div role="tabpanel">
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li role="presentation" class="active">
+                            <a href="#tab-dinero-electronico" aria-controls="tab-dinero-electronico" role="tab" data-toggle="tab">Dinero Electrónico</a>
+                        </li>
+                        <li role="presentation">
+                            <a href="#tab-piezas-gratis" aria-controls="tab-piezas-gratis" role="tab" data-toggle="tab">Piezas Gratis</a>
+                        </li>
+                    </ul>                    
+                
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane active" id="tab-dinero-electronico">
+                          
+                          <div class="table-responsive">
+                            <table class="table table-hover table-striped table-condensed">
+                              <thead>
+                                <tr>
+                                  <th>Fecha</th>
+                                  <th>Tipo de movimiento</th>
+                                  <th>Sucursal</th>
+                                  <th>Ticket</th>
+                                  <th>Importe</th>
+                                  <th>Dinero electrónico</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td>2017-01-21 15:56</td>
+                                  <td>Ticket Venta</td>
+                                  <td>Suc. Plaza Gu</td>
+                                  <td>165666</td>
+                                  <td>$207.00</td>
+                                  <td>$0.00</td>
+                                </tr>
+                                <tr>
+                                  <td>2017-01-21 15:56</td>
+                                  <td>Ticket Venta</td>
+                                  <td>Suc. Plaza Gu</td>
+                                  <td>165666</td>
+                                  <td>$207.00</td>
+                                  <td>$0.00</td>
+                                </tr>
+                                <tr>
+                                  <td>2017-01-21 15:56</td>
+                                  <td>Ticket Venta</td>
+                                  <td>Suc. Plaza Gu</td>
+                                  <td>165666</td>
+                                  <td>$207.00</td>
+                                  <td>$0.00</td>
+                                </tr>
+                                <tr>
+                                  <td>2017-01-21 15:56</td>
+                                  <td>Ticket Venta</td>
+                                  <td>Suc. Plaza Gu</td>
+                                  <td>165666</td>
+                                  <td>$207.00</td>
+                                  <td>$0.00</td>
+                                </tr>
+                                <tr>
+                                  <td>2017-01-21 15:56</td>
+                                  <td>Ticket Venta</td>
+                                  <td>Suc. Plaza Gu</td>
+                                  <td>165666</td>
+                                  <td>$207.00</td>
+                                  <td>$0.00</td>
+                                </tr>
+                                <tr>
+                                  <td>2017-01-21 15:56</td>
+                                  <td>Ticket Venta</td>
+                                  <td>Suc. Plaza Gu</td>
+                                  <td>165666</td>
+                                  <td>$207.00</td>
+                                  <td>$0.00</td>
+                                </tr>
+                                <tr>
+                                  <td>2017-01-21 15:56</td>
+                                  <td>Ticket Venta</td>
+                                  <td>Suc. Plaza Gu</td>
+                                  <td>165666</td>
+                                  <td>$207.00</td>
+                                  <td>$0.00</td>
+                                </tr>
+                                <tr>
+                                  <td>2017-01-21 15:56</td>
+                                  <td>Ticket Venta</td>
+                                  <td>Suc. Plaza Gu</td>
+                                  <td>165666</td>
+                                  <td>$207.00</td>
+                                  <td>$0.00</td>
+                                </tr>
+                                <tr>
+                                  <td>2017-01-21 15:56</td>
+                                  <td>Ticket Venta</td>
+                                  <td>Suc. Plaza Gu</td>
+                                  <td>165666</td>
+                                  <td>$207.00</td>
+                                  <td>$0.00</td>
+                                </tr>
+                                <tr>
+                                  <td>2017-01-21 15:56</td>
+                                  <td>Ticket Venta</td>
+                                  <td>Suc. Plaza Gu</td>
+                                  <td>165666</td>
+                                  <td>$207.00</td>
+                                  <td>$0.00</td>
+                                </tr>
+                                <tr>
+                                  <td>2017-01-21 15:56</td>
+                                  <td>Ticket Venta</td>
+                                  <td>Suc. Plaza Gu</td>
+                                  <td>165666</td>
+                                  <td>$207.00</td>
+                                  <td>$0.00</td>
+                                </tr>
+                                <tr>
+                                  <td>2017-01-21 15:56</td>
+                                  <td>Ticket Venta</td>
+                                  <td>Suc. Plaza Gu</td>
+                                  <td>165666</td>
+                                  <td>$207.00</td>
+                                  <td>$0.00</td>
+                                </tr>
+                                <tr>
+                                  <td>2017-01-21 15:56</td>
+                                  <td>Ticket Venta</td>
+                                  <td>Suc. Plaza Gu</td>
+                                  <td>165666</td>
+                                  <td>$207.00</td>
+                                  <td>$0.00</td>
+                                </tr>
+                                <tr>
+                                  <td>2017-01-21 15:56</td>
+                                  <td>Ticket Venta</td>
+                                  <td>Suc. Plaza Gu</td>
+                                  <td>165666</td>
+                                  <td>$207.00</td>
+                                  <td>$0.00</td>
+                                </tr>
+                                <tr>
+                                  <td>2017-01-21 15:56</td>
+                                  <td>Ticket Venta</td>
+                                  <td>Suc. Plaza Gu</td>
+                                  <td>165666</td>
+                                  <td>$207.00</td>
+                                  <td>$0.00</td>
+                                </tr>
+                                <tr>
+                                  <td>2017-01-21 15:56</td>
+                                  <td>Ticket Venta</td>
+                                  <td>Suc. Plaza Gu</td>
+                                  <td>165666</td>
+                                  <td>$207.00</td>
+                                  <td>$0.00</td>
+                                </tr>
+                                <tr>
+                                  <td>2017-01-21 15:56</td>
+                                  <td>Ticket Venta</td>
+                                  <td>Suc. Plaza Gu</td>
+                                  <td>165666</td>
+                                  <td>$207.00</td>
+                                  <td>$0.00</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                          
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="tab-piezas-gratis">
+                          
+                          <div class="table-responsive">
+                            <table class="table table-hover table-striped table-condensed">
+                              <thead>
+                                <tr>
+                                  <th>Producto</th>
+                                  <th>Acumuladas</th>
+                                  <th>Regla</th>
+                                  <th>Entregadas</th>
+                                  <th>Vigencia</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td>Snickers 2 Ipack 86Kg</td>
+                                  <td>1</td>
+                                  <td>4+1</td>
+                                  <td>0</td>
+                                  <td>Sin Limite</td>
+                                </tr>
+                                <tr>
+                                  <td>Snickers 2 Ipack 86Kg</td>
+                                  <td>1</td>
+                                  <td>4+1</td>
+                                  <td>0</td>
+                                  <td>Sin Limite</td>
+                                </tr>
+                                <tr>
+                                  <td>Snickers 2 Ipack 86Kg</td>
+                                  <td>1</td>
+                                  <td>4+1</td>
+                                  <td>0</td>
+                                  <td>Sin Limite</td>
+                                </tr>
+                                <tr>
+                                  <td>Snickers 2 Ipack 86Kg</td>
+                                  <td>1</td>
+                                  <td>4+1</td>
+                                  <td>0</td>
+                                  <td>Sin Limite</td>
+                                </tr>
+                                <tr>
+                                  <td>Snickers 2 Ipack 86Kg</td>
+                                  <td>1</td>
+                                  <td>4+1</td>
+                                  <td>0</td>
+                                  <td>Sin Limite</td>
+                                </tr>
+                                <tr>
+                                  <td>Snickers 2 Ipack 86Kg</td>
+                                  <td>1</td>
+                                  <td>4+1</td>
+                                  <td>0</td>
+                                  <td>Sin Limite</td>
+                                </tr>
+                                <tr>
+                                  <td>Snickers 2 Ipack 86Kg</td>
+                                  <td>1</td>
+                                  <td>4+1</td>
+                                  <td>0</td>
+                                  <td>Sin Limite</td>
+                                </tr>
+                                <tr>
+                                  <td>Snickers 2 Ipack 86Kg</td>
+                                  <td>1</td>
+                                  <td>4+1</td>
+                                  <td>0</td>
+                                  <td>Sin Limite</td>
+                                </tr>
+                                <tr>
+                                  <td>Snickers 2 Ipack 86Kg</td>
+                                  <td>1</td>
+                                  <td>4+1</td>
+                                  <td>0</td>
+                                  <td>Sin Limite</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="fake-footer"></div>
+          </div>
+          <div id="perfil-mis-ofertas" class="tab-pane" role="tabpanel">
+            <div class="container">
+              <div class="form_info_01">
+                <h2 class="color-blue weight-heavy">Mis ofertas</h2><br>
+                <div class="row">
+                  <div class="col-xs-12 col-sm-6">
+                    <a href="#" class="thumbnail">
+                      <img class="img-responsive" src="rsc/imgs/oferta_01.png" alt="">
+                    </a>
+                  </div>
+                  <div class="col-xs-12 col-sm-6">
+                    <a href="#" class="thumbnail">
+                      <img class="img-responsive" src="rsc/imgs/oferta_01.png" alt="">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="fake-footer"></div>
+          </div>
+          <div id="perfil-suscripciones" class="tab-pane" role="tabpanel">
+            <div class="container">
+              <div class="form_info_01">
+                <h2 class="color-blue weight-heavy">Suscripciones</h2><br>
+                <form class="form-vertical" action="" method="POST" role="form">
+                  <legend>Selecciona por cuál de los siguiente medios de comunicación, te gustaría ser contactado.</legend>
+                  
+                  <div class="table-responsive">
+                    <table class="table table-condensed">
+                      <thead>
+                        <tr>
+                          <th class="col-xs-6"></th>
+                          <th>Correo Electónico</th>
+                          <th>Celular</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th>Tarjeta Benavides</th>
+                          <td>
+                            <label class="radio-inline">
+                              <input name="cb-email" type="radio" id="cb-email-si" value="si"> Si
+                            </label>
+                            <label class="radio-inline">
+                              <input name="cb-email" type="radio" id="cb-email-no" value="no"> No
+                            </label>
+                          </td>
+                          <td>
+                            <label class="radio-inline">
+                              <input name="cp-email" type="radio" id="cp-email-si" value="si"> Si
+                            </label>
+                            <label class="radio-inline">
+                              <input name="cp-email" type="radio" id="cp-email-no" value="no"> No
+                            </label>
+                          </td>
+                        </tr>
+                        <tr>
+                          <th>Club Peques</th>
+                          <td>
+                            <label class="radio-inline">
+                              <input name="cb-celular" type="radio" id="cb-celular-si" value="si"> Si
+                            </label>
+                            <label class="radio-inline">
+                              <input name="cb-celular" type="radio" id="cb-celular-no" value="no"> No
+                            </label>
+                          </td>
+                          <td>
+                            <label class="radio-inline">
+                              <input name="cp-celular" type="radio" id="cp-celular-si" value="si"> Si
+                            </label>
+                            <label class="radio-inline">
+                              <input name="cp-celular" type="radio" id="cp-celular-no" value="no"> No
+                            </label>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  
+                </form>  
+              </div>
+            </div>
+            <div class="fake-footer"></div>
+          </div>
+          <div id="perfil-club-peques" class="tab-pane" role="tabpanel">
+            <div class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                  <li data-target="#carousel-id" data-slide-to="0" class="active"></li>
+                  <!--<li data-target="#carousel-id" data-slide-to="1" class=""></li>
+                  <li data-target="#carousel-id" data-slide-to="2" class=""></li>-->
+              </ol>
+              <div class="carousel-inner">
+                  <div class="item active">
+                      <img src="rsc/imgs/banner_01.png">
+                      <div class="container">
+                          <div class="carousel-caption">
+                          </div>
+                      </div>
+                  </div>
+                  <!--<div class="item">
+                      <img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Second slide" alt="Second slide" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNTAwIj48cmVjdCB3aWR0aD0iOTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iIzY2NiI+PC9yZWN0Pjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjQ1MCIgeT0iMjUwIiBzdHlsZT0iZmlsbDojNmE2YTZhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjU2cHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+U2Vjb25kIHNsaWRlPC90ZXh0Pjwvc3ZnPg==">
+                      <div class="container">
+                          <div class="carousel-caption">
+                              <h1>Another example headline.</h1>
+                              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="item">
+                      <img data-src="holder.js/900x500/auto/#555:#5a5a5a/text:Third slide" alt="Third slide" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNTAwIj48cmVjdCB3aWR0aD0iOTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iIzU1NSI+PC9yZWN0Pjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjQ1MCIgeT0iMjUwIiBzdHlsZT0iZmlsbDojNWE1YTVhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjU2cHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+VGhpcmQgc2xpZGU8L3RleHQ+PC9zdmc+">
+                      <div class="container">
+                          <div class="carousel-caption">
+                              <h1>One more for good measure.</h1>
+                              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+                          </div>
+                      </div>
+                  </div>-->
+              </div>
+              <a class="left carousel-control" href="#carousel-id" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+              <a class="right carousel-control" href="#carousel-id" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div>
+            <div class="form_info_01">
+              <div class="container-fluid full-width">
+                <div class="row">
+                  <div class="col-xs-12 col-sm-6">
+                    <div class="padded-all">
+                      <h4 class="color-blue-hover text-left">Te acompañamos desde el embarazo <br> hasta que tu bebé cumpla 3 años.</h4>
+                      <h4 class="color-blue-hover text-left">Obten promociones exclusivas en:</h4>
+                      <img class="img-responsive padded-top-md" src="rsc/imgs/promociones_exclusivas.png" alt="">
+                    </div>
+                  </div>
+                  <div class="col-xs-12 col-sm-6 full-width bg-color-pink overflow-hidden">
+                    <img class="img-responsive sello-peques" src="rsc/icons/sello_peques_01.png" alt="">
+                    <a class="animated-component text-center">
+                      <h3>Solo para ti, <span class="hover-color" data-hcolor="#2a3479">Jud:</span></h3>
+                      <img class="img-responsive" src="rsc/imgs/nestle_nido.png" alt="">
+                      <h6 class="text-center">Nido Kinder 1+ <br> 1,600 g</h6>
+                    </a>
+                    <div class="bottom-line bg-color-opacity"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="container-fluid full-width">
+              <div class="form_info_02 padded-all">
+                <h2 class="color-blue weight-heavy">Actualiza tus datos</h2>
+                
+                <form action="" method="POST" class="form-vertical" role="form">     
+
+                    <div class="form-group">
+                      <label for="embarazada-si" class="control-label">¿Estas embarazada?</label>
+                      <div class="">
+                        <label class="radio-inline">
+                          <input name="embarazada" type="radio" id="embarazada-si" value="si"> Sí
+                        </label>
+                        <label class="radio-inline">
+                          <input name="embarazada" type="radio" id="embarazada-no'" value="no"> No
+                        </label>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="embarazada-si" class="control-label">¿Cuando nacerá tu bebé?</label>
+                      <div class="form-inline">
+                        <fieldset>
+                          <select class="form-control input-sm">
+                              <option>Año</option>
+                              <option>2017</option>
+                              <option>2018</option>
+                              <option>2019</option>
+                          </select>
+                           <select class="form-control input-sm">
+                                <option>Mes</option>
+                                <option>Enero</option>
+                                <option>Febrero</option>
+                                <option>Marzo</option>
+                                <option>Abril</option>
+                                <option>Mayo</option>
+                                <option>Junio</option>
+                                <option>Julio</option>
+                                <option>Agosto</option>
+                                <option>Septiembre</option>
+                                <option>Octubre</option>
+                                <option>Noviembre</option>
+                                <option>Diciembre</option>
+                            </select>
+                        </fieldset>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="hijos-menores-si" class="control-label">¿Tienes hijos menores a 3 años?</label>
+                      <div class="">
+                        <label class="radio-inline">
+                          <input name="hijos-menores" type="radio" id="hijos-menores-si" value="si"> Sí
+                        </label>
+                        <label class="radio-inline">
+                          <input name="hijos-menores" type="radio" id="hijos-menores-no'" value="no"> No
+                        </label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                        <div class="form-group">
+                          <label for="embarazada-si" class="control-label">¿Cuantos hijos menores de 3 años tienes?</label>
+                          <div class="form-inline">
+                            <fieldset>
+                              <select class="form-control input-sm">
+                                  <option>1</option>
+                                  <option>2</option>
+                                  <option>3</option>
+                                  <option>4</option>
+                              </select>
+                            </fieldset>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                        <div class="form-group">
+                          <div class="block_info">
+                            <ol>
+                              <li>Acepto términos y condiciones</li>
+                              <li>Acepto recibir información de Farmacias Benavides</li>
+                            </ol>
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Regresar</button>
+                          <button type="button" class="btn btn-primary">Aceptar</button>
+                        </div>
+                      </div>
+                    </div>
+                </form>
+                
+              </div>
+            </div>
+          </div>
+          <div id="perfil-terminos-condiciones" class="tab-pane" role="tabpanel">
+            
+          </div>
+        </section>
+
+      </div>
+
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="icons">
+              <div class="col-xs-12 col-sm-6">
+                <img src="rsc/icons/logo bena.png" alt="">
+              </div>
+              <div class="col-xs-12 col-sm-6">
+                <div class="social-media text-right">
+                    <a href="" class="facebook"><span class="fa fa-facebook-official"></span></a>
+                    <a href="" class="twitter"><span class="fa fa-twitter"></span></a>
+                    <a href="" class="instagram"><span class="fa fa-instagram"></span></a>
+                    <a href="" class="youtube"><span class="fa fa-youtube-play"></span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="extra-links">
+              <div class="col-xs-12">
+                <a href="" class="text-uppercase">Servicios</a>
+                <a href="" class="text-uppercase">Inversionistas</a>
+                <a href="" class="text-uppercase">Proveedores</a>
+                <a href="" class="text-uppercase">Contacto</a>
+                <a href="" class="text-uppercase">Únete al equipo</a>
+                <a href="" class="text-uppercase">Fotobenavides</a>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="rights">
+              <div class="col-xs-12">
+                <h5 class="text-uppercase"><small>2016 Derechos reservados farmacia benavides, Aviso de privacidad / Políticas de privacidad</small></h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+    </div>
+
+    <script src='js/jquery/jquery.min.js'></script>
+    <script src='js/bootstrap.min.js'></script>
+    <script src='js/bootstrap-select.js'></script>
+    <script src='js/app.js'></script>
+  </body>
+</html>
